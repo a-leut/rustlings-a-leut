@@ -4,6 +4,6 @@
 
 
 fn main() {
-    const world: &str = "world";
-    println!("Hello {world}!");
+    let world = String::from("world");
+    println!("Hello {}!", world);
 }
